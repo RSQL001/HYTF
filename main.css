@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: purple;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/* Home Page*/
+
+#navbarNav.collapse.navbar-collapse {
+    width: -moz-available;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white!important;
+}
+
+.navEdit img {
+    width:30%;
+}
+
+
+.hero-bg {
+    background-image: url('./images/hero-bg.jpg');
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 5em;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 0;
+    margin: 2em 5em;
+    font-weight: bolder;
+    padding-right: 40em;
+    
+}
+
+#row1.hero-text h1,h3 {
+    color: white;
+    font-weight: bolder;
+}
+
+#land {
+    position: absolute;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.prehome {
+    text-align: center;  
+    margin: 1em 0;  
+}
+
+.prehome h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #77C043;
+}
+
+.prehome h3 {
+    padding: 1em 3em;
+    font-family: 'Calibri', sans-serif;
+    color: black;
+}
+
+#first-btn.btn.btn-primary {
+    text-align: center;
+}
+
+.home-1 {
+    padding: 2em 0;
+    background-color: #f9f9f9;
+}
+
+#row2 {
+    display: flex;
+}
+
+#belief {
+    text-align: left;
+}
+
+.textbox h1 {
+    color: black;
+    font-weight: bolder;
+}
+
+.textbox h6 {
+    color: black;
+    font-weight: bolder;
+}
+
+span {
+    background-color: #77C043;
+}
+
+.textbox h3 {
+    color: black;
+    font-weight: bolder;
+    margin: 1em 0em;
+}
+
+.textbox h4 {
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.textbox-first h3 {
+    font-size: 30px;
+    padding: 0em 4em;
+    font-weight: bolder;
+    color: black;
+}
+
+.textbox-first h4 {
+    background-color: white;
+    color: #8D3F23;
+    font-weight: bolder;
+}
+
+.textbox-first {
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+
+.textbox-second {
+    text-align: center;
+    background-color: #77C043;
+}
+
+.textbox-second h1 {
+    color: white;
+    padding-top: .5em;
+    font-weight: bolder;
+}
+
+.textbox-second h3 {
+    padding: 1em 0;
+    color: black;
+}
+
+#first-btn.btn.btn-primary {
+    margin: 1em 0em;
+}
+
+/*What We Do*/
+
+.services {
+    margin:2em 0;
+    text-align: center;
+}
+
+.services h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #77C043;
+}
+
+.services h3 {
+    padding: 1em 5em;
+    
+    color: black;
+}
+
+.services h6 {
+    margin:2em 0;
+}
+
+.icon-1 img {
+    width: 35%;
+}
+
+.icon-4 img {
+    width: 50%;
+}
+
+.row.cards {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin: 2em 0em;
+}
+
+.title p {
+    padding: 1em;
+}
+
+.title h5 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.row.collab {
+    width: 100%;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.centerfold {
+    margin: 2em 0em;
+    width: 100%;
+}
+
+.textbox.collab h3 {
+    padding: 0em 1em;
+}
+
+.textbox.collab h5 {
+    padding: 1em 2em;
+}
+
+#collabcol img {
+    width: 100%;
+}
+
+.row.collab#one {
+    width: 100%;
+    padding: 2em 0;
+}
+
+.row.collabtwo {
+    width: 100%;
+    justify-content: end;
+    background-color: burlywood;
+    padding: 2em 0;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.card.quote {
+    margin: 1em 0em;
+}
+
+
+.fig img {
+    border-radius: 50%;
+}
+
+.text-area h6 {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.testimonial-1 {
+    display: block;
+    width: 700px;
+    height: auto;
+    background-color: cornflowerblue;
+}
+
+.testimonial-2 {
+    display: block;
+    width: 700px;
+    height: auto;
+    background-color: crimson;
+}
+
+/* Who We Are*/
+
+.about-us {
+    background-color: #f9f9f9;
+    padding: 0em 3em;
+}
+
+#about2 {
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#about3 {
+    padding: 0em 3em;
+}
+
+#about4 {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0 15em;
+    text-align: left;
+    line-height: 3.5em;
+}
+
+#about4 h5 {
+    padding: 2em 0em;
+    text-align: left;
+}
+
+
+/* Donate*/
+
+.donate {
+    background-image: url('./images/donate.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 50vh;
+} 
+
+
+#donate.textbox {
+    position: absolute;
+    top: 0;
+    margin: 0.5em 1em;
+}
+
+
+#donate.textbox h3 {
+    background-color: #77C043;
+    color: white;
+    font-size: 60px;
+    margin: 0;
+}
+
+#donate.textbox p {
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* Footer*/
+
+footer {
+    background-color: darkslategray;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2em 0;
+
+}
+
+
+#footer-top h2 {
+    font-weight: bolder;
+    padding: 0em 1em;
+    font-size: 1.5rem;
+}
+
+.socialbox img {
+    width: 50%;
+}
+
+.logobox img {
+    padding: 1em 0em;
+    width: 70%;
+}
+
+#footer-final {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
